@@ -1,0 +1,14 @@
+header{
+    color:whitesmoke;
+    text-shadow: 2px 2px #cccccc;
+    text-align: center;
+    background-color: rgba(165, 192, 171, 1);
+}
+#bilder > img{
+    margin: 0 auto;
+    max-width: 400px;
+    margin: 50px;
+}
+#table{
+    margin: 0 auto;
+}

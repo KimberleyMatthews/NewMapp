@@ -1,0 +1,95 @@
+header{
+    color:whitesmoke;
+    text-shadow: 2px 2px #cccccc;
+}
+header a{
+    border-style: solid;
+    text-align: justify;
+    color:whitesmoke;
+    text-decoration: none;
+    text-size-adjust: 45;
+    font-family:'Times New Roman', Times, serif;
+}
+
+p{
+    text-align: center
+}
+blockquote{
+    text-align: center
+}
+
+ul.infotext{
+    text-size-adjust: 12px;
+    border-width: 4px;
+    border-style: solid;
+    border-color:whitesmoke;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    text-shadow: 2px 2px #cccccc
+}
+div li{
+    text-align: center;
+}  
+#content{
+    background-color:rgba(165, 192, 171, 1);
+    padding: 20px;
+}
+.träningsfoton{
+    text-align: center;
+    margin: 50px 0;
+    white-space: nowrap;
+}
+.träningsfoton li{
+    display: inline-block;
+    width: 35%;
+    margin: 20px 20px;
+}
+.träningsfoton li img{
+    max-width: 65%;
+}
+img {
+    border-radius: 8px;
+}
+#info{
+    background-color: rgba(165, 192, 171, 1);
+    color: whitesmoke;
+    text-shadow: #cccccc;
+}
+#bild2{
+    height: 165px;
+    width: 220px;
+}
+#bild{
+    width: 70%;
+    margin: 0 auto;
+}
+#indextext{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 250;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    text-align: justify;
+    width: 50%;
+}
+#träningsredskap{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 250;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    right: 0;
+    text-align: right;
+    width: 50%;
+    float: right;
+
+}
+#länk{
+    width: 100%;
+}
+#länk > div{
+    width: 50%;
+    float: left;
+}

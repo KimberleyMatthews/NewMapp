@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="style2.css">
+    <title>Frågeformulär</title>
+
+</head>
+
+<body>
+    
+<header id="namn">
+    <br>
+    <h1><p><strong>Kimberley Matthews</strong></p></h1> 
+    <br>
+</header>
+<hr>
+<form>
+    <br>
+    <h2><p>Fyll i uppgifterna nedan: </p></h2>
+    <label for="Förnamn">Förnamn:</label>
+    <input type="text" id="förnamn" name="förnamn" placeholder="Ditt namn">
+
+  <br><br>
+
+  <label for="Efternamn">Efternamn:</label>
+  <input type="efternamn" id="efternamn" name="efternamn" placeholder="Ditt efternamn">
+
+  <br><br>
+
+  <label for="Email">Email:</label>
+  <input type="Email" id="Email" name="Email" placeholder="Din emailadress">
+
+  <br><br>
+
+  <label for=" Ålder">Ålder:</label>
+  <input type="radio" name="age" value="15-18" id="option-1">
+  <label for="option-1">15-18</label>
+  <input type="radio" name="age" value="18-35" id="option-2">
+  <label for="option-2">18-35</label>
+  <input type="radio" name="age" value="35-55" id="option-4">
+  <label for="option-4">35-55</label>
+  <input type="radio" name="age" value="55+" id="option-6">
+  <label for="option-6">55+</label>
+
+  <br><br>
+
+  <label for="bio">Vem är du, vad har du för träningserfarenhet och vad du vill ha hjälp med:</label>
+  
+  <br><br>
+
+  <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Jag söker dig för att..."></textarea>
+
+  <br><br>
+<!--Här kommer submit-knappen, saknar funktion just nu-->
+  <button id="submit" type="button" value="Skicka">Skicka</button>
+  
+
+</form>
+<br>
+<div id="hejförnamn"></div>
+
+<script src="javascript2.js"></script>
+</body>
+
+</html>
